@@ -1,7 +1,7 @@
 import React      from 'react';
 import { mount }  from 'react-mounter';
 import { App }    from './App';
-import { Home }   from '/imports/ui/Home';
+import { Home }   from '/imports/api/Home';
 
 FlowRouter.route( '/', {
   name: 'Home',
